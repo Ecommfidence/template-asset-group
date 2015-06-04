@@ -1,0 +1,53 @@
+.awards {
+  padding: 40px 0;
+  background-color: #DEDCDD;
+  .container-top-level {
+    width: 100%;
+    @media (min-width: 1220px){
+      width: 1220px;
+    }
+    .awards-wrapper {
+      text-align: center;
+      .clear {
+        height: 40px;
+      }
+      .tablet {
+        display: none;
+      }
+      .sm-mobile {
+        display: block;
+      }
+      .mobile {
+        display: block;
+      }
+      @media (min-width: 380px){
+        .sm-mobile {
+          display: none;
+        }
+        .mobile {
+          display: block;
+        }
+      }
+      @media (min-width: 768px){
+        .mobile {
+          display: none;
+        }
+        .tablet {
+          display: block;
+        }
+      }
+      @media (min-width: 1200px){
+        .mobile {
+          display: none;
+        }
+        .tablet {
+          display: none;
+        }
+      }
+      img {
+        margin: 0 20px;
+        display: inline-block;
+      }
+    }
+  }
+}
