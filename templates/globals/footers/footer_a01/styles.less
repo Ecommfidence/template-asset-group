@@ -1,0 +1,153 @@
+
+footer {
+  margin: 0;
+  padding: 15px 0 10px 0;
+  background-color: #DEDCDD;
+  position: relative;
+  color: #25304C;
+  text-transform: uppercase;
+  @media (min-width: 480px){
+    padding: 15px 0;
+  }
+  .container {
+    &.container-top-level {
+      @media (min-width: 1220px){
+        width: 1180px;
+        padding: 0;
+      }
+    }
+    .footer-column-logo {
+      margin: 0 0 10px 0;
+      @media (min-width: 480px){
+        margin: 0 0 20px 0;
+      }
+      @media (min-width: 992px){
+        margin: auto;
+      }
+      .footer-logo-link {
+        display: block;
+        .footer-logo {
+          width: 142px;
+          @media (min-width: 480px){
+            width: 230px;
+          }
+          @media (min-width: 768px){
+            width: 305px;
+          }
+        }
+      }
+    }
+    .footer-nav-1, .footer-nav-2 {
+      ul {
+        list-style: none;
+        //margin: 0;
+        padding: 0;
+        li {
+          a {
+            font-weight: bold;
+            font-size: 10px;
+            color: #25304C;
+            &:hover, &:focus {
+              text-decoration: none;
+            }
+            @media (min-width: 480px){
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    .footer-nav-1 {
+      margin: 0;
+      @media (min-width: 992px){
+        margin: 0 0 0 100px;
+      }
+      ul {
+        margin: 0;
+      }
+    }
+    .footer-nav-2 {
+      margin: 0;
+      @media (min-width: 992px){
+        margin: 0 0 0 100px;
+      }
+      ul {
+        margin: 0;
+      }
+    }
+    .footer-column-contact-social {
+      text-align: right;
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 0px;
+      @media(min-width: 992px){
+        position: inherit;
+        top: inherit;
+        right: inherit;
+      }
+      .contact-number {
+        a {
+          font-size: 10px;
+          font-weight: bold;
+          color: #25304C;
+          text-decoration: none;
+          letter-spacing: 1px;
+          @media (min-width: 480px){
+            font-size: 16px;
+          }
+          @media (min-width: 768px){
+            font-size: 18px;
+          }
+        }
+      }
+      .footer-social-wrapper {
+        margin: -10px 0 0 0;
+        text-align: right;
+        ul {
+          list-style: none;
+          margin: 15px 0 0 0;
+          padding: 0;
+          li {
+            width: 22px;
+            height: 22px;
+            margin: 0 3px;
+            display: inline-block;
+            &.social-facebook {
+              background: url('../img/footer_fb.png') no-repeat;
+              background-size: contain;
+              a {
+                display: block;
+              }
+              img {
+                display: none;
+              }
+              &:hover, &:focus {
+                background: none;
+              }
+              &:hover img, &:focus img {
+                display: block;
+              }
+            }
+            &.social-twiiter {
+              background: url('../img/footer_twitter.png') no-repeat;
+              background-size: contain;
+              a {
+                display: block;
+              }
+              img {
+                display: none;
+              }
+              &:hover, &:focus {
+                background: none;
+              }
+              &:hover img, &:focus img {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

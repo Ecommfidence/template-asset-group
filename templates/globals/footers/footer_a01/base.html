@@ -3,16 +3,63 @@
 <head>
   <meta charset="utf-8">
   <title>Base Template</title>
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="../../../dependencies/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+  <footer class="layout-footer">
+    <div class="container container-top-level">
 
+      <div class="row">
 
+          <div class="col-md-3 footer-column-logo">
+            <a href="{{ '/'|app }}" class="footer-logo-link"><img src="http://dummyimage.com/305x70/cccccc/fff.jpg" class="img-responsive footer-logo" /></a>
+          </div>
 
+          <div class="col-md-3">
+            <div class="footer-nav-1">
+                <ul>
+                    <li class="footer-nav-li"><a href="{{ '/practice-areas'|app }}">PRACTICE AREAS</a></li>
+                    <li class="footer-nav-li"><a href="{{ '/about'|app }}">ABOUT</a></li>
+                    <li class="footer-nav-li"><a href="{{ '/your-attorneys'|app }}">YOUR ATTORNEYS</a></li>
+                    <li class="footer-nav-li"><a href="{{ '/case-studies'|app }}">CASE STUDIES</a></li>
+                    <li class="footer-nav-li"><a href="{{ '/news'|app }}">NEWS</a></li>
+                </ul>
+            </div>
+          </div>
 
+          <div class="col-md-3">
+            <div class="footer-nav-2">
+                <ul>
+                    <li class="footer-nav-li"><a href="{{ '/careers'|app }}">CAREERS</a></li>
+                    <li class="footer-nav-li"><a href="{{ '/contact-us'|app }}">CONTACT US</a></li>
+                    <li class="footer-nav-li"><a href="{{ '/legal'|app }}">LEGAL</a></li>
+                    <li class="footer-nav-li"><a href="{{ '/privacy-policy'|app }}">PRIVACY POLICY</a></li>
+                    <li class="footer-nav-li"><a href="{{ '/terms-of-service'|app }}">TERMS OF SERVICES</a></li>
+                </ul>
+            </div>
+          </div>
 
+          <div class="col-md-3 footer-column-contact-social">
+            <div class="contact-number"><a href="tel:+8586253900">CALL (858) 625-3900</a></div>
+            <div class="footer-social-wrapper">
+              <ul>
+                <li><a href="#"><img src="http://dummyimage.com/25x25/cccccc/fff.jpg" class="img-responsive" /></a></li>
+                <li><a href="#"><img src="http://dummyimage.com/25x25/cccccc/fff.jpg" class="img-responsive" /></a></li>
+                <li><a href="#"><img src="http://dummyimage.com/25x25/cccccc/fff.jpg" class="img-responsive" /></a></li>
+                <li><a href="#"><img src="http://dummyimage.com/25x25/cccccc/fff.jpg" class="img-responsive" /></a></li>
+              </ul>
+            </div>
+          </div>
 
-  <script src=""></script>
+        </div>
+
+    </div>
+
+  </footer>
+
+  <script src="../../../dependencies/js/jquery.min.js"></script>
+  <script src="../../../dependencies/js/bootstrap.min.js"></script>
 </body>
 </html>
