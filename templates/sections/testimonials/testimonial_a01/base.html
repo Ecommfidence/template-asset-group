@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Base Template</title>
+  <link rel="stylesheet" href="../../../dependencies/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="testimonials">
+	<div class="container container-top-level">
+		<div id="owlslider">
+			<div class="item">
+			  <img src="{{ 'assets/default/img/testimonials-quote-icon.png'|theme }}" class="logo img-responsive" />
+			  <p>is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+			  <span>- Frank Underwood</span>
+			</div>
+			<div class="item">
+			  <img src="{{ 'assets/default/img/testimonials-quote-icon.png'|theme }}" class="logo img-responsive" />
+			  <p>is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+			  <span>- Frank Underwood</span>
+			</div>
+			<div class="item">
+			  <img src="{{ 'assets/default/img/testimonials-quote-icon.png'|theme }}" class="logo img-responsive" />
+			  <p>is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+			  <span>- Frank Underwood</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script src="../../../dependencies/js/jquery.min.js"></script>
+<script src="../../../dependencies/js/bootstrap.min.js"></script>
+<script src="../../../dependencies/js/owl.carousel.min.js"></script>
+<script>
+	$("#owlslider").owlCarousel({
+
+    navigation : true, // Show next and prev buttons
+    slideSpeed : 300,
+    paginationSpeed : 400,
+    singleItem: true
+
+    // "singleItem:true" is a shortcut for:
+    // items : 1,
+    // itemsDesktop : false,
+    // itemsDesktopSmall : false,
+    // itemsTablet: false,
+    // itemsMobile : false
+
+});
+</script>
+</body>
+</html>
